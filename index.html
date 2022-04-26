@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Credits Sandro Jäger | 2022 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!-- Primary Meta Tags -->
+    <title>NFT-Search-Engine | Sandro Jäger</title>
+    <meta name="title" content="NFT-Search-Engine | Sandro Jäger">
+    <meta name="description" content="Look up the collection from other NFT-Platform Users!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sandrojaeger.github.io/NFT-Test/">
+    <meta property="og:title" content="NFT-Search-Engine | Sandro Jäger">
+    <meta property="og:description" content="Look up the collection from other NFT-Platform Users!">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sandrojaeger.github.io/NFT-Test/">
+    <meta property="twitter:title" content="NFT-Search-Engine | Sandro Jäger">
+    <meta property="twitter:description" content="Look up the collection from other NFT-Platform Users!">
+    <meta property="twitter:image" content="">
+    <title>NFT-Search-Engine | Sandro Jäger</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body> 
+    <div class="search-wrapper">
+        <div class="input-holder">
+            <input type="text" class="search-input" placeholder="Type to search" />
+            <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+        </div>
+        <span class="close" onclick="searchToggle(this, event);"></span>
+    </div>
+    <span class="loader-img2"></span>
+    <div style="height: 100%; overflow: auto;">
+        <div class="headingdiv" style="position: relative; width: 100vw; "></div>
+        <div class="carddiv" style="position: relative; width: 100vw; display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;"></div>
+    </div>
+    
+</body>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+    <script src="./js/main.js"></script>
+</html>
